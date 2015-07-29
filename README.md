@@ -16,10 +16,6 @@ Add `fields` to `populate()`
 
 ```js
   User.find().populate('country', {}, {fields: ['id', 'country_name']})
-```
-
-*Note:*
-- *`sails-hook-populate-fields` work by patch model static `validate()`, `create()`, `createEach()`, `findOrCreate()`, `findOrCreateEach()` and `update()`.*
 
 
 ## Contribute
