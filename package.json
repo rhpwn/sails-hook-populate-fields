@@ -1,0 +1,48 @@
+{
+  "name": "sails-hook-populate-fields",
+  "version": "0.1.0",
+  "description": "This hook allows to indicate fields for populate()",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhpwn/sails-hook-populate-fields.git"
+  },
+  "keywords": [
+    "sails",
+    "sails-hook",
+    "model",
+    "fields",
+    "return",
+    "hook",
+    "plugin",
+    "module"
+  ],
+  "author": {
+    "name": "rhpwn",
+    "email": "rodnitchi@gmail.com",
+    "url": "https://github.com/rhpwn"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/rhpwn/sails-hook-populate-fields",
+  "contributors": [
+    {
+      "name": "rhpwn"
+    }
+  ],
+  "devDependencies": {
+    "sails": "^0.11.0",
+    "sails-disk": "^0.10.7"
+  },
+  "maintainers": [
+    {
+      "name": "rhpwn",
+      "email": "rodnitchi@gmail.com"
+    }
+  ]
+}
