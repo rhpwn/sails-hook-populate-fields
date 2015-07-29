@@ -23,7 +23,7 @@ Add `fields` to `populate()`
 Fork this repo and push in your ideas.
 
 
-## Licence
+##Licence
 
 The MIT License (MIT)
 
