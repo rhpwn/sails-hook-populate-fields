@@ -5,12 +5,12 @@ This hook allows to indicate fields for `populate()`.
 
 *Note: This requires Sails v0.11.0+.
 
-## Installation
+##Installation
 ```sh
 $ npm install --save sails-hook-populate-fields
 ```
 
-## Usage
+##Usage
 
 Add `fields` to `populate()`
 
@@ -18,7 +18,7 @@ Add `fields` to `populate()`
   User.find().populate('country', {}, {fields: ['id', 'country_name']})
 
 
-## Contribute
+##Contribute
 
 Fork this repo and push in your ideas.
 
