@@ -16,7 +16,7 @@ Add `fields` to `populate()`
 
 ```js
   User.find().populate('country', {}, {fields: ['id', 'country_name']})
-
+```
 
 ##Contribute
 
